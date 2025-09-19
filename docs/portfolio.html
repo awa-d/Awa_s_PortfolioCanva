@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio · My Work</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">MyPortfolio</div>
+      <button id="navToggle" class="btn ghost" aria-label="Menu">☰</button>
+      <div id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container section">
+    <header class="section">
+      <h1>Portfolio</h1>
+      <p class="muted">Browse selected work. Use filters to switch between types.</p>
+      <div class="chips" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="pdf">PDFs</button>
+        <button class="chip" data-filter="video">Videos</button>
+        <button class="chip" data-filter="flyer">Flyers</button>
+        <button class="chip" data-filter="presentation">Presentations</button>
+      </div>
+    </header>
+
+    <section class="grid grid-3" id="gallery">
+      <!-- PDF cards -->
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/ADD1_Project2025.jpg" alt="Impact Report cover" />
+        <div class="pad">
+          <h3>Data analysis Report 2025</h3>
+          <p class="muted">Link between Electoral Expectations and Education Level in Cameroon (2024): A Correspondence Analysis Approach (CA), ENSAE.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/ADD1_Project2025.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/ALADEC.png" alt="ALADEC Report cover" />
+        <div class="pad">
+          <h3>Celebrating our graduated comrads</h3>
+          <p class="muted">AS of 2024.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/ALADEC2024_AS.pdf">Open PDF</button>
+        </div>
+      </article>
+
+  <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/ALADEC.png" alt="ALADEC Report cover" />
+        <div class="pad">
+          <h3>Celebrating our graduated comrads</h3>
+          <p class="muted">ISE of 2024.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/ALADEC2024_ISE.pdf">Open PDF</button>
+        </div>
+      </article>     
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/AMSENBILAN.jpg" alt="Team presentation preview" />
+        <div class="pad">
+          <h3> Treasurery Report AMSEN 2024</h3>
+          <p class="muted">Comprehensive PDF about the AMSEN (Senegalese students of ENSAE) 2024 Treasurery (sensitive figures not shown).</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/BilanAMSEN2024.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/Certif.png" alt="Certificate preview" />
+        <div class="pad">
+          <h3>Certificates of Appreciation Students and Interns' Association - ENSAE</h3>
+          <p class="muted">Award certificate collection of the 2023-2024 AES's Bureau in PDF format.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/CertificatAES2024.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/programeStatplume.png" alt="Program preview" />
+        <div class="pad">
+          <h3>Club Presse Program</h3>
+          <p class="muted">Press Club Candidate program exported as PDF.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/diawa_club_presse.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/BREXIT EXPOSE.jpg" alt="BREXIT Exposé preview" />
+        <div class="pad">
+          <h3>BREXIT Exposé</h3>
+          <p class="muted">English Presentation exported to PDF.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/Exposé_BREXIT_NS.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/LaStatDansMonPays.jpg" alt="Stat dans mon pays preview" />
+        <div class="pad">
+          <h3>La Statistique dans mon Pays</h3>
+          <p class="muted">PDF publication focused on statistics communication.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/LaStatDansMonPays.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/MAGAFAN.jpg" alt="MAGAFAN Report preview" />
+        <div class="pad">
+          <h3>MAGAFAN Report</h3>
+          <p class="muted">Project report in PDF format.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/MAGAFAN.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/DissertEco.jpg" alt="Dissertation methodology preview" />
+        <div class="pad">
+          <h3>Dissertation Methodology</h3>
+          <p class="muted">Economics dissertation methodology guide.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/MéthoDissertationEco2024.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/PourMTOURE.png" alt="Dedication report preview" />
+        <div class="pad">
+          <h3>Tribute to Mr Touré</h3>
+          <p class="muted">A dedicated PDF tribute. The students' testimonies are excluded from the doc.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/PourMTOURE.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/Povertyanalysis.jpg" alt="Poverty Analysis report preview" />
+        <div class="pad">
+          <h3>Poverty Analysis 2025</h3>
+          <p class="muted">Comprehensive poverty and inequality analysis.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/Povertyanalysis.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/TDR_CabinetDiscoursPrésidentiels2025.jpg" alt="TDR Cabinet report preview" />
+        <div class="pad">
+          <h3>TDR Cabinet – Discours Présidentiels 2025</h3>
+          <p class="muted">Technical document in PDF format.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/TDR_CabinetDiscoursPrésidentiels2025.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/StageImmersion.png" alt="Stage report preview" />
+        <div class="pad">
+          <h3>Mon stage d'immersion en ISEP2</h3>
+          <p class="muted">Internship Report Presentation 2024</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/Stage_immersion_AwaDIAW_ISEP2.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <article class="card item pdf-card" data-type="pdf">
+        <img src="assets/images/stat_TAF.png" alt="Stat taf report preview" />
+        <div class="pad">
+          <h3>Projet stat travail</h3>
+          <p class="muted">Stat travail Project</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/StatTAF2025.pdf">Open PDF</button>
+        </div>
+      </article>
+
+      <!-- Video cards -->
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/Amphi_rentrée2024.jpg" alt="Amphi rentrée 2024 teaser thumbnail" />
+        <div class="pad">
+          <h3>Amphi rentrée 2024</h3>
+          <p class="muted">Vidéo pour la mise en place des invités.</p>
+          <button class="btn open-video" data-src="assets/videos/AmphiRentree2024.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/ClubInfoDataScience.png" alt="Club Info Data Science video thumbnail" />
+        <div class="pad">
+          <h3>Club Info – Data Science Session</h3>
+          <p class="muted">Recorded workshop on Data Science - Computer science Club AES ENSAE</p>
+          <button class="btn open-video" data-src="assets/videos/ClubInfoSéanceDataScience.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/JI.jpg" alt="Ceremony teaser thumbnail" />
+        <div class="pad">
+          <h3>JI 2024</h3>
+          <p class="muted">One of the videos of the "Spécial JI 2024"</p>
+          <button class="btn open-video" data-src="assets/videos/JI2024.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/CompetDebat.png" alt="Debat 2025" />
+        <div class="pad">
+          <h3>Compétition de Débat </h3>
+          <p class="muted">Prix Kortho 2025 First results - Club leadership AES ENSAE </p>
+          <button class="btn open-video" data-src="assets/videos/CompetDebat2025.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/LastEventAES2025.png" alt="Generic video thumbnail" />
+        <div class="pad">
+          <h3>Event Teaser</h3>
+          <p class="muted">Generic promotional teaser for the last ceremony of the academic year AES-ENSAE</p>
+          <button class="btn open-video" data-src="assets/videos/ClotureMDSTenuesDevise.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/PrixGala2025.png" alt="Generic video thumbnail" />
+        <div class="pad">
+          <h3>Gala & Awards</h3>
+          <p class="muted">Different types of Awards of the 1st edition of Gala Diner - AES-ENSAE</p>
+          <button class="btn open-video" data-src="assets/videos/PrixGala2025.mp4">Play Video</button>
+        </div>
+      </article>
+
+      <article class="card item" data-type="video">
+        <img src="assets/images/Présentation_ENSAEOlympiades2024.jpg" alt="Generic video thumbnail" />
+        <div class="pad">
+          <h3>Discovering ENSAE</h3>
+          <p class="muted">Video for the awards ceremony of the National Mathmatic Olympiad AES-ENSAE</p>
+          <button class="btn open-video" data-src="Présentation_ENSAEOlympiades2024.mp4">Play Video</button>
+        </div>
+      </article>
+      
+      <!-- Flyers -->
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/RAEDMemoire196s.jpg" alt="RAED Contest preview" />
+        <div class="pad">
+          <h3>"Mon mémoire en 196s" 2025 RAED</h3>
+          <p class="muted">RAED : Mon mémoire en 196s Flyer.</p>
+          <button class="btn open-img" data-src="assets/images/RAEDMemoire196.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/RestauNouv.jpg" alt="Affaires soc flyer preview" />
+        <div class="pad">
+          <h3>"Secrétariat chargé aux affaires sociales" 2025 AES-ENSAE</h3>
+          <p class="muted">Fonctionnement Affaires Sociales AES ENSAE.</p>
+          <button class="btn open-img" data-src="assets/images/RestauNouv">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/FasciculeProject2025.jpg" alt="Projet Fascicule flyer preview" />
+        <div class="pad">
+          <h3>"Projet Fascicule" 2025 AES-ENSAE</h3>
+          <p class="muted">As the coordinator of the communication pole.</p>
+          <button class="btn open-img" data-src="assets/images/FasciculeProject2025.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/EleganceLeadershipClub.jpg" alt="Journée d'élégance flyer preview" />
+        <div class="pad">
+          <h3>"Journée d'Élégance" 2024/2025 – Leadership Club</h3>
+          <p class="muted">As designer.</p>
+          <button class="btn open-img" data-src="assets/images/EleganceLeadershipClub.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/VisiteBSA2025.jpg" alt="Visite institution flyer preview" />
+        <div class="pad">
+          <h3>"Visite d'Institution – Mois de la Stat 2025"</h3>
+          <p class="muted">ISRA, Port Autonome de Dakar, Data center de Diamniadio</p>
+          <button class="btn open-img" data-src="assets/images/VisiteBSA2025.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/AmphiDeRentree2024.jpg" alt="Amphi flyer preview" />
+        <div class="pad">
+          <h3>"Amphi de rentrée" Poster</h3>
+          <p class="muted">Printed A4 poster.</p>
+          <button class="btn open-img" data-src="assets/images/AmphiDeRentree2024.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/Assemblée.jpg" alt="Assemblée flyer preview" />
+        <div class="pad">
+          <h3>"Assemblée Générale"</h3>
+          <p class="muted">Printed A4 poster.</p>
+          <button class="btn open-img" data-src="assets/images/Assemblée.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/Badges_olympiadesMaths4.jpg" alt="Olympiades badges flyer preview" />
+        <div class="pad">
+          <h3>"Olympiades Maths – Badges 2025"</h3>
+          <p class="muted">Printed A4 poster.</p>
+          <button class="btn open-img" data-src="assets/images/Badges_olympiadesMaths4.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/Majors de promo.png" alt="Majors de promo flyer preview" />
+        <div class="pad">
+          <h3>"Majors de Promo"</h3>
+          <p class="muted">Printed A4 poster.</p>
+          <button class="btn open-img" data-src="assets/images/Majors de promo.png">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/PDG_rapport_Stage.jpg" alt="Rapport de stage flyer preview" />
+        <div class="pad">
+          <h3>"Rapport de Stage – Page de garde"</h3>
+          <p class="muted">1st page of Report internship</p>
+          <button class="btn open-img" data-src="assets/images/PDG_rapport_Stage.jpg">View</button>
+        </div>
+      </article>
+
+      <article class="card item flyer-card" data-type="flyer">
+        <img src="assets/images/Tarifs_Awards2025.png" alt="Tarifs awards flyer preview" />
+        <div class="pad">
+          <h3>"Tarifs Awards 2025"</h3>
+          <p class="muted">Printed A4 poster.</p>
+          <button class="btn open-img" data-src="assets/images/Tarifs_Awards2025.png">View</button>
+        </div>
+      </article>
+
+
+      <!-- Presentations 
+      <article class="card item presentation-card" data-type="presentation">
+        <img src="assets/images/thumb-deck-1.jpg" alt="Strategy deck preview" />
+        <div class="pad">
+          <h3>Strategy Deck</h3>
+          <p class="muted">Presentation exported to PDF for quick sharing.</p>
+          <button class="btn open-pdf" data-src="assets/pdfs/strategy-deck.pdf">Open Deck</button>
+        </div>
+      </article>
+    </section>
+  </main>-->
+
+  <footer class="footer container">
+    <small>© 2025 Awa Diaw. All rights reserved.</small>
+  </footer>
+
+  <script src="assets/js/base.js"></script>
+  <script src="assets/js/portfolio.js"></script>
+  
+</body>
+</html>

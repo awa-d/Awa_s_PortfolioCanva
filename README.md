@@ -5,7 +5,7 @@
 Welcome to the official repository of my personal portfolio website.  
 This site is not just code — it’s a digital canvas where numbers, visuals, and stories meet.
 
-🔗 *Live Portfolio:* [Visit the website here](https://your-link-goes-here.com)
+🔗 *Live Portfolio:* [Visit the website here](https://awa-d.github.io/Awa_s_PortfolioCanva/)
 
 ---
 

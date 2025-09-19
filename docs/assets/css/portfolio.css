@@ -1,0 +1,6 @@
+/* portfolio.css - Styles */
+
+.pad{padding:16px}
+.item{overflow:hidden}
+.item img{aspect-ratio:16/10; object-fit:cover; width:100%; transition:transform var(--transition)}
+.item:hover img{transform:scale(1.03)}
